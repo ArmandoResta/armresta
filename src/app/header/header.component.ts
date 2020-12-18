@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { TimelineLite } from 'gsap';
+import { gsap } from 'gsap';
 
 @Component({
   selector: 'app-header',

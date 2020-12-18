@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { TimelineLite } from 'gsap';
+import { gsap } from 'gsap';
 
 @Component({
   selector: 'app-contacts',
