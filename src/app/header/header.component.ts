@@ -21,7 +21,7 @@ export class HeaderComponent implements OnInit {
   }
 
   nav() {
-    const tl: TimelineLite = new TimelineLite({defaults: {ease: 'power1.out'}});
+    const tl = gsap.timeline({defaults: {ease: 'power1.out'}});
 
     if(this.check == false){
       document.getElementById('icon').classList.add("change");

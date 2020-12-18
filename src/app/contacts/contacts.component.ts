@@ -15,7 +15,7 @@ export class ContactsComponent implements OnInit {
   }
 
   contactsTransition() {
-    let tl: TimelineLite = new TimelineLite({defaults: {ease: 'power1.out'}});
+    const tl = gsap.timeline({defaults: {ease: 'power1.out'}});
 
     tl.to('.text, .subtitle', 0, {display: "inline-block"})
     tl.to('.text', .5, {y: "0%", stagger: .1})

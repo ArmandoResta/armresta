@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { TimelineLite } from 'gsap';
 
 @Component({
   selector: 'app-landing',
@@ -16,7 +15,7 @@ export class LandingComponent implements OnInit {
 
 
   landingTransition() {
-    const tl: TimelineLite = new TimelineLite({defaults: {ease: 'power1.out'}});
+    const tl = gsap.timeline({defaults: {ease: 'power1.out'}});
 
     tl.to('.intro', .2, {background: "#202527", delay: .5})
     tl.to('.logo-intro', .1, {opacity: 1, width: "65px"})
