@@ -1,0 +1,64 @@
+<div id="menu" class="overlay">
+    <div class="overlay-content">
+        <div class="menu-text">
+            <h1 class="hide">
+                <span class="txt">Get in touch!</span>
+            </h1>
+            <span style="display: block; height: 20px;"></span>
+            <h3>
+                Lavoriamo insieme, rendiamo efficace
+                la presenza della tua idea in rete, 
+                facciamo networking.</h3>
+            <span style="display: block; height: 10px;"></span>
+            <h4>armandoresta@live.it -></h4>
+        </div>
+        <div class="menu-social">
+            <a href="">facebook</a>
+            <a href="">instagram</a>
+            <a href="">linkedin</a>
+        </div>
+        <div class="menu-mobile">
+            <a href="">Bio</a>
+            <a routerLink="works" routerLinkActive="active">Works</a>
+            <a routerLink="home" routerLinkActive="active">Home</a>
+        </div>
+        <div class="menu-footer">
+            <a href="">©2020 Armando Resta.</a>
+            <a href="">All rights reserved.</a>
+        </div>
+    </div>
+</div>
+
+<header>
+
+    <div class="content-header">
+        <div class="logo" (click)=goHome()>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 99.76 91.37">
+                <path d="M30.82,74A15.42,15.42,0,1,1,17.53,60.66,15.43,15.43,0,0,1,30.82,74ZM99.76,50.48,72.62,64.21,11,33.06A20,20,0,0,1,0,15.21V0Z" transform="translate(0 0)"/>
+            </svg>
+        </div>
+    </div>
+
+    <div class="content-header">
+        <div class="menu">
+            <a href="">Bio</a>
+            <a routerLink="works" routerLinkActive="active">Works</a>
+            <a routerLink="contacts" routerLinkActive="active">Contacts</a>
+            <a href="" class="red">Say Hello!</a>
+        </div>
+
+        <div id="icon" class="icon-menu" (click)=nav()>
+            <div id="bar"></div>
+            <div id="bar"></div>
+        </div>
+    </div>
+
+    <div class="content-header">
+        <div class="social">
+            <a href="">facebook</a>
+            <a href="">instagram</a>
+            <a href="">linkedin</a>
+        </div>
+    </div>
+
+</header>
